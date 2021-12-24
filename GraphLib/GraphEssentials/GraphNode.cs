@@ -12,6 +12,7 @@ namespace GraphLib.GraphEssentials
     {
         public TNode Value { get; }
         private readonly List<GraphEdge<TNode, TEdge>> neighbours;
+
         public IList<GraphEdge<TNode, TEdge>> Neighbours
         {
             get
